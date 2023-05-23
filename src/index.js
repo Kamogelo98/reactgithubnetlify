@@ -7,7 +7,17 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <h1>Weather App</h1>
     <App />
+      <p>
+        <a
+          className="App-link"
+          href="https://github.com/Kamogelo98/reactgithubnetlify"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Open source project 
+        </a> Coded by Kamogelo Mashike</p>
   </React.StrictMode>
 );
 
